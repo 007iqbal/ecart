@@ -10,3 +10,18 @@
   height:80vh;
   overflow-y:auto;
 }
+
+.topdeal{
+  height:120px;
+  line-height:14px;
+}
+
+.topdeal img{
+  height:100%
+}
+
+@media only screen and (max-width:426px){
+  .topdeal{
+    height: auto;
+  }
+}
