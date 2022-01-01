@@ -2,7 +2,7 @@ import logo from '../../assets/images/logo2.png';
 
 let Header = ()=>{
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
       <div className="container-fluid"> 
         <a className="navbar-brand" href="#">
           <img id="brand_logo" src={logo} alt="logo" className="mx-lg-3" />
