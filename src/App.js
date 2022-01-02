@@ -3,6 +3,7 @@ import Header from './components/layout/Header';
 import Sidenav from './components/layout/Sidenav';
 import Slider from './components/layout/Slider';
 import Topdeal from './components/layout/Topdeal';
+import Footer from './components/layout/Footer';
 import './App.css';
 
 function App() {
@@ -21,7 +22,14 @@ function App() {
         </div>
       </div>
 
-      <Topdeal />
+      <div>
+        <Topdeal />
+      </div>
+
+      <div>
+        <Footer />
+      </div>
+
 
     </>
   );

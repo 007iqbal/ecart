@@ -1,6 +1,6 @@
 let Topdeal = () => {
     return (
-        <div className="container-fluid p-5 my-3 topdeal ">
+        <div className="container-fluid p-5 my-3">
             <h3>TOP DEALS</h3>
             
             <div className="row">
