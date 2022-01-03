@@ -2,9 +2,22 @@ import logo from './logo.svg';
 import Header from './components/layout/Header';
 import Sidenav from './components/layout/Sidenav';
 import Slider from './components/layout/Slider';
-import Topdeal from './components/layout/Topdeal';
 import Footer from './components/layout/Footer';
+import ProductCard from './components/layout/ProductCard';
+import data from './data';
 import './App.css';
+
+function cardProducts(val) {
+  return (
+    <ProductCard
+      image={val.image}
+      name={val.name}
+      discount={val.discount}
+      price={val.price}
+    />
+  )
+
+}
 
 function App() {
   return (
@@ -22,8 +35,8 @@ function App() {
         </div>
       </div>
 
-      <div>
-        <Topdeal />
+      <div className="row mx-0">
+        {data.map(cardProducts)}
       </div>
 
       <div>
