@@ -1,6 +1,6 @@
 let Footer =()=> {
     return (
-        <div className="container-fluid footer bg-dark text-light text-center p-4">
+        <div className="container-fluid footer bg-dark text-light text-center p-4 mx-0">
                 <h5 className="my-4">e-cart.com</h5>
                 <ul>
                     <li><a href="/">Home</a></li>

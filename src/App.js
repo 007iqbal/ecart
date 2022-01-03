@@ -7,7 +7,7 @@ import ProductCard from './components/layout/ProductCard';
 import data from './data';
 import './App.css';
 
-function cardProducts(val) {
+const cardProducts =(val)=> {
   return (
     <ProductCard
       image={val.image}
@@ -35,7 +35,8 @@ function App() {
         </div>
       </div>
 
-      <div className="row mx-0">
+      <div className="row mx-0"> 
+        <h3 className="p-5 text-uppercase">Popular Products</h3> 
         {data.map(cardProducts)}
       </div>
 
